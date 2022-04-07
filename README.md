@@ -2,8 +2,12 @@
 A proxy server for eve online files that adds cors headers.
 
 # .usage
-1. `node index.js`
-2. starts proxy server on `env.PORT` (defaults to 5000)
+1. `node index.js` - starts proxy server on `env.PORT` (defaults to 5000)
+2. use `localhost:{port}/res/{fileHash}` to get proxied client res files
+3. use `localhost:{port}/app/{fileHash}` to get proxied client app files
+
+_example_ 
+- `localhost:5000/res/f9/f93da4421047cd30_f7c776f233f7a346c32ddde82a3d0f58`
 
 # .disclaimer
 USE THIS AT YOUR OWN RISK. IF YOU USE THIS, YOU AGREE THAT THE AUTHOR CANNOT BE HELD LIABLE FOR ANY CONSEQUENCES THAT MIGHT OCCUR BECAUSE OF ITS USAGE.
